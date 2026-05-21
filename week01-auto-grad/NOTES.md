@@ -2,6 +2,17 @@
 
 ---
 
+## 🚩 Flagged for later (end of Week 2)
+
+- **LayerNorm backward derivation by hand.** Drill skipped on Day 3.
+  Standard ML interview question. Need to derive `∂L/∂x_i` given upstream `∂L/∂y_i`.
+  Hard part: `x_i` affects every `y_j` via three coupled paths (direct, through `μ`, through `σ²`).
+  Final formula has the shape:
+  `∂L/∂x_i = (1/(D·s)) · [D·(∂L/∂x̂_i) − Σ(∂L/∂x̂_j) − x̂_i · Σ(∂L/∂x̂_j · x̂_j)]`
+  Revisit with paper + a numerical example.
+
+---
+
 ## Part 1 — Tensor Puzzle Takeaways (Sasha Rush, #1–10)
 
 ### The mental model

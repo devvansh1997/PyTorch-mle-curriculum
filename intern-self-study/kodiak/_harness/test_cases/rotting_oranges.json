@@ -1,0 +1,10 @@
+[
+  {"name": "classic_example", "args": [[[2,1,1],[1,1,0],[0,1,1]]], "expected": 4},
+  {"name": "unreachable_fresh", "args": [[[2,1,1],[0,1,1],[1,0,1]]], "expected": -1},
+  {"name": "no_fresh_oranges", "args": [[[0,2]]], "expected": 0},
+  {"name": "all_empty", "args": [[[0,0],[0,0]]], "expected": 0},
+  {"name": "all_rotten", "args": [[[2,2],[2,2]]], "expected": 0},
+  {"name": "single_fresh_no_rotten", "args": [[[1]]], "expected": -1},
+  {"name": "single_rotten", "args": [[[2]]], "expected": 0},
+  {"name": "line_of_fresh_with_rotten_end", "args": [[[2,1,1,1,1]]], "expected": 4}
+]

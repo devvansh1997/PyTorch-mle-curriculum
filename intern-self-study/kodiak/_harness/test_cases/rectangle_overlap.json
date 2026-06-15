@@ -1,0 +1,9 @@
+[
+  {"name": "overlapping", "args": [[0,0,2,2],[1,1,3,3]], "expected": true},
+  {"name": "touching_edge_only", "args": [[0,0,1,1],[1,0,2,1]], "expected": false},
+  {"name": "touching_corner_only", "args": [[0,0,1,1],[1,1,2,2]], "expected": false},
+  {"name": "fully_separate", "args": [[0,0,1,1],[2,2,3,3]], "expected": false},
+  {"name": "one_contains_other", "args": [[0,0,5,5],[1,1,2,2]], "expected": true},
+  {"name": "identical_rectangles", "args": [[1,1,4,4],[1,1,4,4]], "expected": true},
+  {"name": "long_thin_overlap", "args": [[0,0,10,1],[5,0,6,1]], "expected": true}
+]

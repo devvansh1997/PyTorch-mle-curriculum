@@ -1,0 +1,10 @@
+[
+  {"name": "single_clear_cell", "args": [[[0]]], "expected": 1},
+  {"name": "single_blocked_cell", "args": [[[1]]], "expected": -1},
+  {"name": "start_blocked", "args": [[[1,0],[0,0]]], "expected": -1},
+  {"name": "end_blocked", "args": [[[0,0],[0,1]]], "expected": -1},
+  {"name": "two_by_two_all_clear", "args": [[[0,0],[0,0]]], "expected": 2},
+  {"name": "classic_lc_example_1", "args": [[[0,1],[1,0]]], "expected": 2},
+  {"name": "classic_lc_example_2", "args": [[[0,0,0],[1,1,0],[1,1,0]]], "expected": 4},
+  {"name": "start_isolated_by_walls", "args": [[[0,1,0],[1,1,0],[0,1,0]]], "expected": -1}
+]

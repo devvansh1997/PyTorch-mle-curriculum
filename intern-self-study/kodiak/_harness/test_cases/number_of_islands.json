@@ -1,0 +1,9 @@
+[
+  {"name": "single_land_cell", "args": [[["1"]]], "expected": 1},
+  {"name": "single_water_cell", "args": [[["0"]]], "expected": 0},
+  {"name": "all_water_3x3", "args": [[["0","0","0"],["0","0","0"],["0","0","0"]]], "expected": 0},
+  {"name": "all_land_3x3", "args": [[["1","1","1"],["1","1","1"],["1","1","1"]]], "expected": 1},
+  {"name": "classic_three_islands", "args": [[["1","1","0","0","0"],["1","1","0","0","0"],["0","0","1","0","0"],["0","0","0","1","1"]]], "expected": 3},
+  {"name": "diagonal_not_connected", "args": [[["1","0","1"],["0","1","0"],["1","0","1"]]], "expected": 5},
+  {"name": "snake_single_island", "args": [[["1","1","1","1"],["0","0","0","1"],["1","1","1","1"],["1","0","0","0"]]], "expected": 1}
+]
